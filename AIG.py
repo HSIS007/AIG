@@ -1,3 +1,13 @@
+print "#" * 50
+print "#" * 50
+print      " ##       #########   ######### "
+print     " #  #          #       #         "
+print    " #    #         #       #         "
+print   " ########        #       ######### "
+print  " #        #       #               # "
+print " #          #  #########           # V1.0 "   
+print " Created by HSIS007 AKA(SZZER)"
+print " Active Information Gathering tool for pentester, so far this tools only connects to the host and grabs the banners"
 import optparse
 import socket
 from socket import*
@@ -43,3 +53,8 @@ def main():
 	portScan(Host, Ports)
 if __name__=='__main__':
 	main()
+
+
+
+
+		
